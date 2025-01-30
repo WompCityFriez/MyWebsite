@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> S.H.I.E.L.D Employee Registration Form</title>
+    <link rel="stylesheet" href="css/shield-style.css">
+</head>
+<body>
+    
+    <!--S.H.I.E.L.D Logo-->
+    <img src="images/shield-logo.svg" alt="shield-logo" id="shield-logo">
+
+    <!--Heading Text-->
+    <h1 class="form-title">S.H.I.E.L.D <br> Employee Registration Form</h1>
+
+    <!-- === BEGIN FORM BELOW THIS LINE === -->
+    <form action="#">
+    <div class="section-one">
+        <!--Full Name-->
+        <div class="agent-info-input">
+            <label for="fullname">Full Name</label>
+            <input type="text" name="fullname" id="fullname" placeholder="Enter Full Name">
+            </div>
+
+        <!--Username-->
+        <div class="agent-info-input">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" placeholder="Username">
+            </div>
+
+        <!--Password-->
+        <div class="agent-info-input">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Confirm Password">
+            </div>
+
+        <!--Confirm Password-->
+        <div class="agent-info-input">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" name="confirm password" id="confirm password" placeholder="Confirm Password">
+            </div>
+
+        <!--Email Address-->
+        <div class="agent-info-input">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="email@email.com">
+            </div>
+
+        <!--Phone Number-->
+         <div class="agent-info-input">
+             <label for="phone">Phone</label>
+             <input type="tel" name="phone" id="phone" placeholder=" (xxx) xxx-xxx">
+             </div>
+        </form>
+
+         <div class="section-two">
+        <!-- Species Selection Dropdown -->
+        <div class="agent-info-input">
+            <label for="species">Select Your Species</label>
+            <select name="species" id="species">
+                 <option value="human" >Human</option>
+                 <option value="alien" >Alien</option>
+                 <option value="other" >Other</option>
+             </select>
+             </div>
+            </form>
+                                
+        <!--Resume Upload-->
+        <div class="agent-info-input">
+             <label for="resume">Upload Your</label>
+             <input type="file" name="resume" id="resume">
+             </div>
+
+         <!--Additional Comments Adjustable Text Box-->
+         <div class="agent-info-input">
+            <label for="comments">Additional Comments</label>
+            <textarea name="comments" id="comments" cols="50" rows="10">Please provide any additional comments or information we should be aware of when considering your application.
+                If you are Thanos, leave this webpage.
+            </textarea>
+        </div>
+
+        <!--Submit Button-->
+        <input id="submit" type="submit" value="Submit">
+        </div>                       
+  
+  
+    <!--DO NOT TOUCH THIS CODE!!!-->
+    <div class="sd-button">
+        <label for="sd-button"> In case of security breach, click below</label>
+        <a href="self-destruct.html">
+            <input type="button" value="Self Destruct" id="sd-btn">
+        </a>
+    </div>
+
+</form>
+
+</body>
+</html>
+

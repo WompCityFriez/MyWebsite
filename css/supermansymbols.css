@@ -1,0 +1,323 @@
+body{
+    color:#352914;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    background-image: url(../Assets/Images/Imageforback.webp);
+    background-size: 400px;
+    
+    overflow-x: hidden;
+}
+
+/* === Heading 1 Styling === */
+h1 {
+    color:#f1bad0;
+    text-align: center;
+    background-color:rgb(255, 195, 195);
+    padding: 50px;
+    margin: -10px -10px 0px -10px;
+}
+
+
+.work-samples {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-samples > a {
+    padding: 15px;
+}
+
+    
+        #nav-buttons3 {
+            text-align: center;
+        }
+            
+            
+            nav {
+                list-style-type: none;
+                overflow: hidden;
+              }
+              
+              #nav1 {
+                position: absolute;
+                top: 70px;
+                left: 355px;
+                color: #ffffff;
+                border-radius: 25px;
+                background-color: #775c45;
+                padding: 10px;
+                width: 130px;
+                text-align: center;
+                font-size: 20px;
+                font-family: Ubuntu Condensed;
+                border: #000000 solid 2.5px;
+                cursor: pointer;
+              }
+              
+              #nav1:hover {
+                animation-name: button-hover2;
+                animation-duration: 0.3s;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: forwards;
+              }
+              
+              #nav2 {
+                position: absolute;
+                top: 70px;
+                left: 500px;
+                color: #ffffff;
+                border-radius: 25px;
+                background-color: #775c45;
+                padding: 10px;
+                width: 130px;
+                text-align: center;
+                font-size: 20px;
+                font-family: Ubuntu Condensed;
+                border: #000000 solid 2.5px;
+                cursor: pointer;
+              }
+              
+              #nav2:hover {
+                animation-name: button-hover2;
+                animation-duration: 0.3s;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: forwards;
+              }
+              
+              #nav3 {
+                position: absolute;
+                top: 70px;
+                left: 650px;
+                color: #ffffff;
+                border-radius: 25px;
+                background-color: #775c45;
+                padding: 10px;
+                width: 130px;
+                font-size: 20px;
+                text-align: center;
+                font-family: Ubuntu Condensed;
+                border: #000000 solid 2.5px;
+                cursor: pointer;
+              }
+              
+              #nav3:hover {
+                animation-name: button-hover2;
+                animation-duration: 0.3s;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: forwards;
+              }
+              
+              #nav4 {
+                position: absolute;
+                top: 70px;
+                left: 800px;
+                color: #ffffff;
+                border-radius: 25px;
+                background-color: #775c45;
+                padding: 10px;
+                width: 130px;
+                text-align: center;
+                font-size: 20px;
+                font-family: Ubuntu Condensed;
+                border: #000000 solid 2.5px;
+                cursor: pointer;
+              }
+              
+              #nav4:hover {
+                animation-name: button-hover2;
+                animation-duration: 0.3s;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: forwards;
+              }
+              
+              #nav5 {
+                position: absolute;
+                top: 70px;
+                left: 950px;
+                color: #ffffff;
+                border-radius: 25px;
+                background-color: #775c45;
+                padding: 10px;
+                width: 130px;
+                text-align: center;
+                font-size: 20px;
+                font-family: Ubuntu Condensed;
+                border: #000000 solid 2.5px;
+                cursor: pointer;
+              }
+              #nav5:hover {
+                animation-name: button-hover2;
+                animation-duration: 0.3s;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: forwards;
+              }
+        
+              #nav6:hover {
+                animation-name: button-hover2;
+                animation-duration: 0.3s;
+                animation-timing-function: ease-in-out;
+                animation-fill-mode: forwards;
+              }
+        
+              #nav6 {
+                position: absolute;
+                top: 70px;
+                left: 1100px;
+                color: #ffffff;
+                border-radius: 25px;
+                background-color: #775c45;
+                padding: 10px;
+                width: 130px;
+                text-align: center;
+                font-size: 20px;
+                font-family: Ubuntu Condensed;
+                border: #000000 solid 2.5px;
+                cursor: pointer;
+              }
+
+              
+              
+              
+              /* Animation on other buttons */
+              @keyframes button-hover2 {
+                from {
+                  background-color: rgb(56, 45, 28);
+                }
+                to {
+                  background-image: Linear-gradient(#5a4428, #a59178, #583f30);
+                }
+              }
+              
+        
+              .ubuntu-condensed-regular {
+                font-family: "Ubuntu Condensed", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+              }
+              
+              .ubuntu-light {
+                font-family: "Ubuntu", sans-serif;
+                font-weight: 300;
+                font-style: normal;
+              }
+              
+              .ubuntu-regular {
+                font-family: "Ubuntu", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+              }
+              
+              .ubuntu-medium {
+                font-family: "Ubuntu", sans-serif;
+                font-weight: 500;
+                font-style: normal;
+              }
+              
+              .ubuntu-bold {
+                font-family: "Ubuntu", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+              }
+              
+              .ubuntu-light-italic {
+                font-family: "Ubuntu", sans-serif;
+                font-weight: 300;
+                font-style: italic;
+              }
+              
+              .ubuntu-regular-italic {
+                font-family: "Ubuntu", sans-serif;
+                font-weight: 400;
+                font-style: italic;
+              }
+              
+              .ubuntu-medium-italic {
+                font-family: "Ubuntu", sans-serif;
+                font-weight: 500;
+                font-style: italic;
+              }
+              
+              .ubuntu-bold-italic {
+                font-family: "Ubuntu", sans-serif;
+                font-weight: 700;
+                font-style: italic;
+              }
+
+
+
+#ohva {
+  position: absolute;
+  left: 1450px;
+}
+
+#sexes {
+  position: absolute;
+  left: 950px;
+  top: 105px;
+}
+
+#train {
+  position: absolute;
+  left: 450px;
+}
+
+
+#row2c1 {
+  border: 2.5px solid  #bb927e;
+  position: absolute;
+  left: 155px;
+  top: 250px;
+  display: inline-block;
+  
+  
+}
+
+
+#row2c2 {
+  position: absolute;
+  left: 695px;  
+  top: 400px;
+}
+
+#row2c3 {
+    position: absolute;
+    left: 1350px;
+    top: 400px;
+}
+
+#paragraph {
+  width:500px;
+  padding-top:5px;
+  border-style:solid;
+  border-color:#5c4831;
+  border-width:3px;
+  padding-left:3px;
+  padding-bottom:10px;
+  word-wrap: break-word;
+  position: absolute;
+  left: 750px;
+  top: 250px;
+  text-align: center;
+  font-family: Ubuntu Condensed;
+  font-size: 24px;
+
+}
+
+#para2 {
+  width:400px;
+  padding-top:5px;
+  border-style:solid;
+  border-color:#5c4831;
+  border-width:3px;
+  padding-left:3px;
+  padding-bottom:10px;
+  word-wrap: break-word;
+  position: absolute;
+  left: 1275px;
+  top: 250px;
+  text-align: center;
+  font-family: Ubuntu Condensed;
+  font-size: 24px;
+
+}  
