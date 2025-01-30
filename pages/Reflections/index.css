@@ -4,7 +4,7 @@ body{
     color:#352914;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-    background-image: url(/Assets/Images/Imageforback.webp);
+    background-image: url(../Assets/Images/Imageforback.webp);
     background-size: 400px;
     
     overflow-x: hidden;
